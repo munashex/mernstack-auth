@@ -1,0 +1,21 @@
+
+POST  http://localhost:3004/api/token  
+ 
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im11bmFzaGVAeWFob28uY29tIiwiaWF0IjoxNjQ0ODM1MjA0LCJleHAiOjE2NDQ5MTgwMDR9.UP_ooq-7nSvDVSeSwGuRXIOJFHF4qX23jEGFeU8W914"
+}
+
+### 
+post http://localhost:3004/api/login  
+Content-Type: application/json  
+
+{
+    "email": "munashe@yahoo.com",
+    "password": "munashe"
+}
+
+
+### 
+get http://localhost:3004/api/clients 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDQ4MzUxNjAsImV4cCI6MTY0NDgzNTI4MH0.hu5qNnnVgRBQYwD9eGpx_-6ra9ukBbtpAwSpIPEOR2I
